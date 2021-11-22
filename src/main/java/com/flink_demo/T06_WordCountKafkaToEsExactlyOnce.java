@@ -1,7 +1,5 @@
 package com.flink_demo;
 
-import com.lei.apitest.util.FlinkUtils;
-import com.lei.apitest.util.MyRedisSink;
 import org.apache.flink.api.common.functions.FlatMapFunction;
 import org.apache.flink.api.common.functions.MapFunction;
 import org.apache.flink.api.common.serialization.SimpleStringSchema;
@@ -12,14 +10,8 @@ import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;
 import org.apache.flink.util.Collector;
 
-/**
- * @Author: Lei
- * @E-mail: 843291011@qq.com
- * @Date: Created in 9:39 上午 2020/6/13
- * @Version: 1.0
- * @Modified By:
- * @Description:
- */
+import com.lei.apitest.util.FlinkUtils;
+
 
 /*
 Flink高级工具类封装
